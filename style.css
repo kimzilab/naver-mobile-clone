@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Prompt:wght@400;600;800&display=swap");
+
+@import "css/mainpage/menu-bar.css";
+@import "css/mainpage/img.css";
+@import "css/mainpage/search.css";
+@import "css/mainpage/contents.css";
+@import "css/mainpage/weather.css";
+@import "css/mainpage/shopping-live.css";
+@import "css/mainpage/short-form.css";
+@import "css/mainpage/circle-menu.css";
+@import "css/pages/login.css";
+@import "css/pages/naver-na.css";
+@import "css/pages/benefit.css";
+@import "css/mainpage/extend.css";
+
+body {
+    width: 100vw;
+    height: 98vh;
+    position: relative;
+    margin: 0;
+}
+
+.body-color__grey {
+    background-color: #f4f6f8;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border: 0;
+    outline: 0;
+}

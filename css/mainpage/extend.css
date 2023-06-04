@@ -1,0 +1,38 @@
+.hidden-contents {
+    display: none;
+}
+.main-page-areas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.extend-area {
+    width: 410px;
+    height: 570px;
+    margin-left: 20px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px 0.01px rgba(0, 0, 0, 0.2);
+}
+
+.comming-soon {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.comming-soon span {
+    font-size: 35px;
+}
+
+.comming-soon span:last-child {
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 900px) {
+    .hidden-contents {
+        display: flex;
+        font-family: "Prompt";
+        font-weight: 800;
+    }
+}

@@ -1,0 +1,36 @@
+.menu-area {
+    margin: 15px 10px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-menu {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.right-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-menu-link > span {
+    margin-right: 15px;
+}
+
+.right-menu-link:last-child > span {
+    margin-right: 5px;
+}
+
+.right-menu-link .na-icon {
+    font-family: "Prompt";
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0.2px 0.4px 1px 0px;
+    text-align: center;
+    font-weight: 800;
+    opacity: 0.5;
+}

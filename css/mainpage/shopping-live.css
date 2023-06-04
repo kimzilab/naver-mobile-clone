@@ -1,0 +1,42 @@
+.shopping-live-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.shopping-live {
+    width: 410px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px 0.01px rgba(0, 0, 0, 0.2);
+}
+
+.shopping-live__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.shopping-live__logo span:nth-child(2) {
+    margin-left: 10px;
+}
+
+.shopping-live__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping-live__list span img {
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+    margin-left: 5px;
+    border-radius: 10px;
+}

@@ -1,0 +1,46 @@
+.search-area {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.search {
+    border: 1px solid #04cd5c;
+    border-radius: 30px;
+    width: 450px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 330px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: #f4f6f8;
+}
+
+.search input::placeholder {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.search-logo__N {
+    font-family: "Prompt";
+    margin: 0 20px;
+    color: #03c75b;
+    font-size: 30px;
+    font-weight: 800;
+}
+.search-logo__mic {
+    position: relative;
+}
+
+.search-logo__mic img {
+    width: 19.75px;
+    height: 29.05px;
+    position: absolute;
+    top: -14px;
+    right: -40px;
+}

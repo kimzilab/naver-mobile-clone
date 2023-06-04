@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+
+.body__na-page {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: #21293e;
+}
+
+.na-text {
+    display: flex;
+    flex-direction: column;
+    font-family: "Black Han Sans", sans-serif;
+}
+
+.na-text__list {
+    color: #12c378;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+
+.na-text__description {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 45px;
+    line-height: 110%;
+}
+
+.na-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.na-image img {
+    position: absolute;
+    width: 75vw;
+    height: 75vw;
+    top: -21vh;
+    z-index: -1;
+    border-radius: 10%;
+    box-shadow: 3px 4px 12px 2px rgba(0, 0, 0, 0.3);
+}
+
+.na-more span {
+    display: flex;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.na-more span > i {
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.na-button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.na-button__next {
+    width: 30vw;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+    font-weight: 800;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 7px;
+}
+
+.na-button__login {
+    width: 50vw;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    color: black;
+    font-weight: 800;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+@media screen and (min-width: 630px) {
+    .na-image img {
+        position: absolute;
+        width: 375px;
+        height: 375px;
+        top: -17vh;
+        z-index: -1;
+        border-radius: 10%;
+        box-shadow: 3px 4px 12px 2px rgba(0, 0, 0, 0.3);
+    }
+}

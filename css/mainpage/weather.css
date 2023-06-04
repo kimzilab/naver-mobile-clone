@@ -1,0 +1,49 @@
+.weather-area {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.weather {
+    width: 410px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 1px 1px 0.01px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.weather-icon {
+    margin: 0 10px;
+}
+
+.weather-icon img {
+    width: 57.56px;
+    height: 40.69px;
+}
+
+.weather-text {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.weather-text-small {
+    font-size: 14px;
+}
+
+.location {
+    margin-left: 3px;
+    margin-right: 10px;
+}
+
+.fine-dust {
+    margin-right: 4px;
+}
+.fine-dust__dot {
+    margin: 0 3px;
+}
+
+.fine-dust__value {
+    color: #40b3ff;
+}
